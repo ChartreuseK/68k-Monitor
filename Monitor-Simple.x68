@@ -678,8 +678,7 @@ msgNewline:
     dc.b CR,LF,0
 msgColonSpace:
     dc.b ': ',0
-msgTermWidth:
-    dc.b 'Term Width? ',0
+
 
 
 
@@ -688,6 +687,7 @@ msgTermWidth:
 
 
     END    START            * last line of source
+
 
 *~Font name~Courier New~
 *~Font size~10~
